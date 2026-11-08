@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "rebootomnitrix",
+  "version": "1.0.0",
+  "name": "Reboot Omnitrix",
+  "description": "Ben 10 Reboot Omnitrix Mod",
+  "authors": [
+    "Sen"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rebootomnitrix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.reboot.omnitrix.RebootOmnitrixMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}
